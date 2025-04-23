@@ -42,7 +42,6 @@ def minValue(node):
     # loop down to find the lefmost leaf
     while(current.left is not None):
         current = current.left
-
  
     return current.data
  
